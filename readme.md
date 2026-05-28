@@ -9,13 +9,13 @@ nodejs npm postgresql openssh-server python3 python3-pip
 firefox net-tools neofetch
 
 Deletion old config:
-rm ~/.config/nvim ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim
+rm -rf ~/.config/nvim ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim
 
 ## LazzyVim setup
 
 command for installation
 
-git clone https://github.com/Methouselah/config.git ~/nvim
+git clone https://github.com/Methouselah/config.git ~/.config/nvim/
 
 ### utils for LazzyVim:
 
