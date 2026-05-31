@@ -3,6 +3,9 @@ return {
   config = function()
     require("auto-save").setup({
       trigger_events = { "BufLeave", "FocusLost", "TabLeave" },
+      execution_message = {
+        enabled = false, -- вот это убирает уведомление от auto-save
+      },
       condition = function(buf)
         local fn = vim.fn
 
